@@ -19,4 +19,4 @@ battery_percent=$(cat /sys/class/power_supply/BAT0/capacity)
 
 # Emojis and characters for the status bar
 # 💎 💻 💡 🔌 ⚡ 📁 \|
-echo $uptime_formatted ↑ $linux_version 🐧 $battery_status $battery_percent 🔋 $date_formatted
+echo $uptime_formatted ↑ $linux_version 🐧 $battery_status $battery_percent%  $date_formatted
